@@ -40,7 +40,7 @@ export const ExternalFactorsPanel = () => {
             <Cloud className="h-5 w-5" />
             Weather Conditions
           </CardTitle>
-          <CardDescription>Current and forecasted weather impact on operations</CardDescription>
+          <CardDescription>Weather impact on operations</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           {weatherFactors.map((item, index) => (
