@@ -117,7 +117,7 @@ export const ExternalFactorsPanel = () => {
               Real-time External Factor Alerts
             </CardTitle>
             <div className="text-sm text-muted-foreground">
-              Forecast: 7-8 August 12 hours
+              Forecast: 7-8 August
             </div>
           </div>
           <CardDescription>Live feed of external factors affecting delivery performance</CardDescription>

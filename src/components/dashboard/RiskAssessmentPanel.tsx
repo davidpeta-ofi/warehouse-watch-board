@@ -155,7 +155,7 @@ export const RiskAssessmentPanel = () => {
               Critical Orders at Risk
             </CardTitle>
             <div className="text-sm text-muted-foreground">
-              Forecast: 7-8 August 12 hours
+              Forecast: 7-8 August
             </div>
           </div>
           <CardDescription>Orders with high probability of delay or failure</CardDescription>
