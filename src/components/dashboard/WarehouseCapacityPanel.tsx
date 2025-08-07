@@ -101,7 +101,7 @@ export const WarehouseCapacityPanel = () => {
                   <strong className="bg-[#000d60]/0 rounded-none">{missingStaff} operators short</strong> - Estimated delay: <strong>+{Math.round(estimatedDelay)} minutes</strong> per order
                 </p>
               </div>
-              <Button variant="destructive" size="sm">
+              <Button variant="destructive" size="sm" className="bg-red-600 hover:bg-red-500">
                 Alert Management
               </Button>
             </div>
