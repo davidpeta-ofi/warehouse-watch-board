@@ -87,7 +87,7 @@ export const WarehouseCapacityPanel = () => {
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-destructive">
               <AlertTriangle className="h-5 w-5" />
-              Critical Staffing Alert - Warehouse-1
+              Critical Staffing Alert - Zellik Depot
             </CardTitle>
             <CardDescription>
               Carrier 100 operations require minimum {warehouseData.requiredStaff} operators. 
