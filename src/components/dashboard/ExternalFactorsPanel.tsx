@@ -10,7 +10,7 @@ export const ExternalFactorsPanel = () => {
   ];
 
   const laborFactors = [
-    { factor: "Flu Outbreak", impact: "High", affected: "Warehouse-1", staffReduction: "-15%" },
+    { factor: "Flu Outbreak", impact: "High", affected: "Zellik Depot", staffReduction: "-15%" },
     { factor: "National Holiday", impact: "Critical", affected: "All Facilities", staffReduction: "-40%" },
     { factor: "Strike Action", impact: "Medium", affected: "Transport Union", staffReduction: "-25%" }
   ];
