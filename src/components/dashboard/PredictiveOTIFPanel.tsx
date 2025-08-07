@@ -189,7 +189,6 @@ export const PredictiveOTIFPanel = () => {
                       </Badge>
                     </td>
                     <td className="p-2 text-center">{order.stopsBefore}</td>
-                    <td className="p-2 text-sm">{order.rootCause}</td>
                   </tr>
                 ))}
               </tbody>
