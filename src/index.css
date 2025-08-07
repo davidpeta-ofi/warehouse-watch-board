@@ -30,16 +30,21 @@ All colors MUST be HSL.
     --accent: 4 75% 95%;
     --accent-foreground: 4 75% 20%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Critical - Dark red */
+    --destructive: 0 65% 40%;
+    --destructive-foreground: 0 0% 100%;
     
-    /* Success variants */
+    /* High risk - Lighter red */
+    --high-risk: 0 75% 55%;
+    --high-risk-foreground: 0 0% 100%;
+    
+    /* Medium risk - Yellow/Orange */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 0%;
+    
+    /* Low risk - Green */
     --success: 142 76% 36%;
     --success-foreground: 0 0% 100%;
-    
-    /* Warning variants */
-    --warning: 38 92% 50%;
-    --warning-foreground: 0 0% 100%;
     
     /* Info variants */
     --info: 221 83% 53%;
@@ -90,8 +95,21 @@ All colors MUST be HSL.
     --accent: 217.2 32.6% 17.5%;
     --accent-foreground: 210 40% 98%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    /* Critical - Dark red for dark mode */
+    --destructive: 0 65% 45%;
+    --destructive-foreground: 0 0% 100%;
+    
+    /* High risk - Lighter red for dark mode */
+    --high-risk: 0 75% 60%;
+    --high-risk-foreground: 0 0% 100%;
+    
+    /* Medium risk - Yellow for dark mode */
+    --warning: 38 85% 55%;
+    --warning-foreground: 0 0% 0%;
+    
+    /* Low risk - Green for dark mode */
+    --success: 142 70% 40%;
+    --success-foreground: 0 0% 100%;
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;

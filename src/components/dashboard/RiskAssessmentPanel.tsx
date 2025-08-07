@@ -62,7 +62,7 @@ export const RiskAssessmentPanel = () => {
       case "Critical":
         return "destructive";
       case "High":
-        return "destructive";
+        return "high-risk";
       case "Medium":
         return "warning";
       case "Low":

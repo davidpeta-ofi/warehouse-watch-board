@@ -24,8 +24,8 @@ export const ExternalFactorsPanel = () => {
   const getImpactColor = (impact: string) => {
     switch (impact) {
       case "Critical": return "destructive";
-      case "High": return "warning";
-      case "Medium": return "info";
+      case "High": return "high-risk";
+      case "Medium": return "warning";
       case "Low": return "success";
       default: return "secondary";
     }
