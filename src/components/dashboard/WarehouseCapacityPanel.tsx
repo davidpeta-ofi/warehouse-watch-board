@@ -131,10 +131,15 @@ export const WarehouseCapacityPanel = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <Card>
           <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Users className="h-5 w-5" />
-              Shift Staffing Analysis
-            </CardTitle>
+            <div className="flex items-center justify-between">
+              <CardTitle className="flex items-center gap-2">
+                <Users className="h-5 w-5" />
+                Shift Staffing Analysis
+              </CardTitle>
+              <div className="text-sm text-muted-foreground">
+                Forecast: 7 August
+              </div>
+            </div>
             <CardDescription>Current vs planned staffing by shift</CardDescription>
           </CardHeader>
           <CardContent>
