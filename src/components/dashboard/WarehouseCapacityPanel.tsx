@@ -209,7 +209,12 @@ export const WarehouseCapacityPanel = () => {
       {/* Action Items */}
       <Card>
         <CardHeader>
-          <CardTitle>Recommended Actions</CardTitle>
+          <div className="flex items-center justify-between">
+            <CardTitle>Recommended Actions</CardTitle>
+            <div className="text-sm text-muted-foreground">
+              Forecast: 7-8 August 12 hours
+            </div>
+          </div>
           <CardDescription>Immediate steps to address capacity constraints</CardDescription>
         </CardHeader>
         <CardContent>
