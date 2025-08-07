@@ -171,7 +171,6 @@ export const PredictiveOTIFPanel = () => {
                   <th className="text-left p-2 font-medium">Estimated Time</th>
                   <th className="text-left p-2 font-medium">Status</th>
                   <th className="text-left p-2 font-medium">Stops Before</th>
-                  <th className="text-left p-2 font-medium">Root Cause</th>
                 </tr>
               </thead>
               <tbody>
