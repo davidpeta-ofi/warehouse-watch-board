@@ -194,10 +194,10 @@ export const WarehouseCapacityPanel = () => {
               </div>
 
               <div className="flex gap-2">
-                <Button size="sm" variant="outline" className="flex-1 text-slate-50 bg-red-700 hover:bg-red-600">
+                <Button size="sm" variant="outline" className="flex-1 text-slate-50 bg-red-600 hover:bg-red-500">
                   Request Overtime
                 </Button>
-                <Button size="sm" variant="outline" className="flex-1 text-slate-50 bg-red-700 hover:bg-red-600">
+                <Button size="sm" variant="outline" className="flex-1 text-slate-50 bg-red-600 hover:bg-red-500">
                   Temp Staff
                 </Button>
               </div>
