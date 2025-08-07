@@ -111,10 +111,15 @@ export const ExternalFactorsPanel = () => {
       {/* Real-time Alerts */}
       <Card className="lg:col-span-3">
         <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <AlertTriangle className="h-5 w-5" />
-            Real-time External Factor Alerts
-          </CardTitle>
+          <div className="flex items-center justify-between">
+            <CardTitle className="flex items-center gap-2">
+              <AlertTriangle className="h-5 w-5" />
+              Real-time External Factor Alerts
+            </CardTitle>
+            <div className="text-sm text-muted-foreground">
+              Forecast: 7-8 August 12 hours
+            </div>
+          </div>
           <CardDescription>Live feed of external factors affecting delivery performance</CardDescription>
         </CardHeader>
         <CardContent>
